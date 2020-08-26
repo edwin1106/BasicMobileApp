@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">BasicMobileApp</string>
+    <string name="app_name">Menú principal</string>
+    <string name="presentation">Presentación equipo</string>
+    <string name="form">Formulario</string>
+    <string name="calculator">Calculadora de edad</string>
 </resources>

@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".CalculatorActivity"
+            android:label="@string/calculator"></activity>
+        <activity android:name=".FormActivity"
+            android:label="@string/form"></activity>
+        <activity android:name=".PresentationActivity"
+            android:label="@string/presentation"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
