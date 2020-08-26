@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.basicmobileapp.R;
 
@@ -44,6 +45,7 @@ public class CalculatorActivity extends AppCompatActivity {
                         android.R.style.Theme_Holo_Light_Dialog,
                         datePicker,
                         year,month,day);
+                dialog.getDatePicker().setMaxDate(System.currentTimeMillis());
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.show();
             }
@@ -56,7 +58,15 @@ public class CalculatorActivity extends AppCompatActivity {
                 month += 1;
                 LocalDate dateNow = LocalDate.now();
                 LocalDate dateChoosen = LocalDate.of(year, month, day);
+                
                 Period period = Period.between(dateChoosen, dateNow);
+                
+                if (period.getYears() <= 0 ){
+                    Toast.makeText(CalculatorActivity.this, "Fecha incorrecta", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Toast.makeText(CalculatorActivity.this, "Usted tiene" + " " + period.getYears() + " "+"años", Toast.LENGTH_LONG).show();
+                }
                 String ageString = period.getYears() + " años";
                 age.setText(ageString);
             }
