@@ -3,4 +3,11 @@
     <string name="presentation">Presentación equipo</string>
     <string name="form">Formulario</string>
     <string name="calculator">Calculadora de edad</string>
+    <string name="team_presentation">Presentación de equipo</string>
+    <string name="age_calculator">Calcular edad</string>
+    <string name="text_button">Mostrar</string>
+    <string name="name_member1">Edwin Osorio Gaviria</string>
+    <string name="name_member2">Jhaider Betancur Correa</string>
+    <string name="image_member1">Member1</string>
+    <string name="image_member2">Member2</string>
 </resources>
