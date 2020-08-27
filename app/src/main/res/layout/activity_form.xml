@@ -17,10 +17,9 @@
         app:layout_constraintVertical_bias="0.496">
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/textName"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nombre" />
+            android:layout_height="wrap_content" />
 
         <EditText
             android:id="@+id/personName"
@@ -30,10 +29,9 @@
             android:inputType="textPersonName" />
 
         <TextView
-            android:id="@+id/textView9"
+            android:id="@+id/textLastName"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Apellido" />
+            android:layout_height="wrap_content" />
 
         <EditText
             android:id="@+id/personLastName"
@@ -43,10 +41,9 @@
             android:inputType="textPersonName" />
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/textPhone"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Teléfono" />
+            android:layout_height="wrap_content" />
 
         <EditText
             android:id="@+id/personPhone"
@@ -58,8 +55,7 @@
         <Button
             android:id="@+id/buttonValidate"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enviar" />
+            android:layout_height="wrap_content" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

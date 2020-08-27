@@ -28,9 +28,14 @@ public class CalculatorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
+        TextView ageResult = findViewById(R.id.ageResult);
+        ageResult.setText(R.string.age_result);
 
         age = (TextView) findViewById(R.id.age);
+        age.setText(R.string.default_age);
+
         openCalendar = (Button) findViewById(R.id.openCalendar);
+        openCalendar.setText(R.string.open_calendar);
 
         openCalendar.setOnClickListener(new View.OnClickListener() {
             @Override

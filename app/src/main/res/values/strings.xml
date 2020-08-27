@@ -10,4 +10,11 @@
     <string name="name_member2">Jhaider Betancur Correa</string>
     <string name="image_member1">Member1</string>
     <string name="image_member2">Member2</string>
+    <string name="open_calendar">Elegir fecha</string>
+    <string name="age_result">Su edad es:</string>
+    <string name="default_age">0</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_last_name">Apellido</string>
+    <string name="text_phone">Teléfono</string>
+    <string name="sed_data_button">ENVIAR</string>
 </resources>
